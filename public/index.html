@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>scan</title>
+	<link href="/libs/css/bootstrap.min.css" rel="stylesheet">
+	<script src="/libs/js/jquery.min.js"></script>
+	<script src="/libs/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/libs/js/index.js"></script>
+</head>
+<body>
+	<div class="container-fluid" >
+		<form class="form-inline" role="form" style="margin:0px auto; max-width:350px; padding:50px 0">
+			<div class="form-group" id="scannerForm">
+				<label  for="code">Bar Code :</label>
+				<input type="text" id="code" name="code" placeholder="" class="form-control" required autofocus style="margin:10px 0"> 
+				<button class="btn btn-primary" id="scan">Scan</button>
+			</div>
+		</form>
+		<img id="loading" style="display:none; margin:0 auto" src="/libs/images/loading.gif"/>
+
+
+		<ul class="row">
+			<hr>
+			<li class="col-md-12 col-xs-12">
+				<span class="col-md-3 col-xs-3">File Name</span>
+				<span class="col-md-3 col-xs-3">Barcode</span>
+				<span class="col-md-3 col-xs-3">Partially Matched</span>
+				<span class="col-md-3 col-xs-3">Exactly Matched</span>
+			</li>
+			<br>
+		</ul>
+		<ul class="row" id="resultWrapper">
+		</ul>
+	</div>
+</body>
+</html>

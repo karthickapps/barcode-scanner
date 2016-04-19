@@ -1,0 +1,25 @@
+{
+  "name": "bar-code-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/karthickportal/bar-code-scanner.git"
+  },
+  "author": "karthick.k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/karthickportal/bar-code-scanner/issues"
+  },
+  "homepage": "https://gitlab.com/karthickportal/bar-code-scanner#README",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "image-to-text": "^1.0.7",
+    "quagga": "^0.9.1"
+  }
+}
